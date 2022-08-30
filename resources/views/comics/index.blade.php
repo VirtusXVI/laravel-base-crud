@@ -15,6 +15,8 @@
                 Data: {{ $comic->sale_date }}
                 <br>
                 Tipo:{{ $comic->type }}
+                <br>
+                <a href="{{ route('comics.show', ['comic' => $comic->id]) }}">Dettagli Fumetto</a>
             </div>
         </div>
         <br>

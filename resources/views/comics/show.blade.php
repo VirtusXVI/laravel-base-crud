@@ -7,5 +7,5 @@
     <div>Prezzo:{{ $comics->price }}</div>
     <div>Data: {{ $comics->sale_date }}</div>
     <div>Tipo:{{ $comics->type }}</div>
-    <a href="http://127.0.0.1:8000/comics">Ritorna alla pagina Precendete</a>
+    <a href="/comics">Ritorna alla pagina Precendete</a>
 @endsection

@@ -12,6 +12,11 @@
     </header>
 
     <main>
+        <a href="/">Vai Alla HomePage</a>
+        <br>
+        <a href="/comics">Vai Alla Pagina Dei Fumetti</a>
+        <br>
+        <a href="/comics/create">Crea Un Nuovo Fumetto</a>
         @yield('main_content')
     </main>
 </body>

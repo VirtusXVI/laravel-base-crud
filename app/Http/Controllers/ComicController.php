@@ -106,6 +106,11 @@ class ComicController extends Controller
         $comic_to_delete = Comic::findOrFail($id);
         $comic_to_delete->delete();
 
-        return view('comics.index');
+        $comics = Comic::all();
+
+        $data =[
+            'comics' => $comics
+        ];
+        return view('comics.index',$data);
     }
 }
